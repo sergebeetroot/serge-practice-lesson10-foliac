@@ -1,0 +1,267 @@
+header {
+	width: 1920px;
+	height: 650px;
+}
+header .backgrnd {
+	width: 1920px;
+	height: 650px;
+	background-color: #3c4955;
+}
+.header #logo {
+	position: relative;
+	left: 390px;
+	top: -614px;
+}
+/*______КНОПКИ В HEADER_______*/
+nav .headnav {
+	position: relative;
+	left: 977px;
+	top: -690px;
+}
+nav .headnav li {
+	display: inline;
+	color: #ffffff;
+	padding-right: 57px;
+}
+.headnav a {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+
+	padding-left: 56px;
+	position: relative;
+}
+.headnav a:after {
+	content: "/";
+	height: 20px;
+	display: inline;
+	width: 1px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+
+}
+.headnav li:first-child {
+	padding-left: 0;
+}
+.headnav li:first-child a {
+	padding-left: 0;
+}
+.headnav li:first-child a:after {
+	display: none;
+}
+.headnav a:hover{
+	color: #48BF72;
+}
+/*______________ЗАГОЛОВКИ В HEADER__________*/
+.header #h1 {
+	color: #ffffff;
+	font-weight: 400;
+	border: none;
+	position: relative;
+	top:-600px;
+	font-family: 'Big John', sans-serif;
+	font-size: 46px;
+	text-transform: uppercase;
+	padding-left: 491px;
+}
+.header #h2 {
+
+	color: #ffffff;
+	font-weight: 400;
+	border: none;
+	position: relative;
+	top:-600px;
+	font-family: "Slim Joe", sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-left: 610px;
+}
+/*_____________ ЦЕНТРАЛЬНАЯ КНОПКА В HEADER_____________*/
+.btnmes {
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	color: #48BF72;
+	text-transform: uppercase;
+	border: 2px solid #48BF72;
+	border-radius: 3px;
+	font-size: 14px;
+	min-height: 39px;
+	line-height: 35px;
+	padding: 0 19px;
+	background: none;
+	position: relative;
+	left: 891px;
+	top: -550px;
+}
+.btnmes:hover {
+	background: #48BF72;
+	color: #fff;
+}
+/*_____________M A I N_____________*/
+.main {
+	height: 1051px;
+}
+/*________КНОПКИ В MAIN________*/
+.mainbtns {
+	margin-bottom: 50px;
+}
+.mainbtns a {
+	text-decoration: none;
+	display: inline-block;
+	color:  #3c4955;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #ccc;
+	border-radius: 2px;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 32px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 91px;
+	line-height: 32px;
+}
+.mainbtns .active {
+	background-color: #48bf72;
+	color: #FFF;
+	margin-left: 590px;
+}
+.mainbtns a:hover {
+	text-decoration: none;
+	background-color: #535F6B;
+	color: #fff;
+}
+.mainbtns a:active {
+	text-decoration: none;
+	position: relative;
+	top: 1px;
+}
+/*__________БЛОКИ С КАРТИНКАМИ В MAIN__________*/
+main .pictures #eshebarahlo {
+	height: 302px;
+	margin-left: 390px;
+	float: left;
+}
+main .pictures #sloi {
+	float: left;
+	height: 304px;
+	position: relative;
+	margin-left: 60px;
+}
+main .pictures #barahlo {
+	clear: left;
+	height: 438px;
+	margin-left: 390px;
+	margin-top: 39px;
+	float: left;
+}
+main .pictures #phone {
+	float: left;
+	height: 438px;
+	margin-left: 1060px;
+	margin-top: -438px;
+	clear: both;
+}
+/*--------------------------------------------.alltext {
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	text-align: center;
+	display: block;
+}
+.alltext eshebarahlo {
+	display: block;
+	border-radius: 8px;
+	width: 100%;
+}
+.alltext text {
+	border-radius: 8px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	color: #FFF;
+	background-color: rgba(72, 191, 114, .8);
+
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s, visibility .3s;
+}
+.alltext forest {
+	font-size: 30px;
+	margin: 0;
+}
+.alltext text p{
+	margin: 0;
+}
+.alltext:hover .alltext__text {
+	visibility: visible;
+	opacity: 1;
+}--------------------------------------*/
+/*main .pictures #forap:hover {
+	background-color: #48bf72;
+	color: #FFF;
+	visibility:visible;
+}
+main .pictures #sloi:hover {
+	background-color: #48bf72;
+	color: #FFF;
+	visibility:visible;
+}
+main .pictures #barahlo:hover {
+	background-color: #48bf72;
+	color: #FFF;
+	visibility:visible;
+}
+main .pictures #phone:hover {
+	background-color: #48bf72;
+	color: #FFF;
+	visibility:visible;
+}*/
+main .pictures {
+	display: block;
+	width: 100%;
+}
+.md {
+	padding: 80px 0 90px;
+	background: url(../pic/men.jpg) no-repeat;
+	position: relative;
+	width: 1920px;
+	height: 500px;
+}
+.btnmecont {
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	color: #61646c;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #61646c;
+	border-radius: 3px;
+	font-size: 14px;
+	min-height: 39px;
+	line-height: 35px;
+	padding: 0 19px;
+	background: none;
+	position: relative;
+	left: 979px;
+	top: 15px;
+}
+.btnmecont:hover {
+	background: #48BF72;
+	color: #fff;
+	text-decoration: none;
+}
+.aboutmd h3, h5, p {
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-left: 980px;
+	width: 415px;
+}
